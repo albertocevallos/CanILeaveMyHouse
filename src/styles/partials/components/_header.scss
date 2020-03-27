@@ -1,0 +1,33 @@
+/** partials for all common sass */
+@import "../config/mixin";
+@import "../config/colors";
+@import "../config/fonts";
+@import "../config/variables";
+@import "../config/animations";
+
+/** scsss for component */
+
+.header {
+  color: whte;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  margin-top: 1em;
+  &__social {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &--counter {
+      color: white;
+      margin-left: 1em;
+      margin-top: -2px;
+    }
+    &--counter span {
+      color: white;
+      font-weight: 700;
+    }
+  }
+}

@@ -30,6 +30,178 @@
 }
 
 /** partials for components*/
+/** partials for all common sass */
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Regular.otf") format("opentype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Demi.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Heavy.otf") format("opentype");
+  font-weight: 1000;
+}
+
+/** scsss for component */
+.header {
+  color: whte;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+}
+
+.header__social {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__social--counter {
+  color: white;
+  margin-left: 1em;
+  margin-top: -2px;
+}
+
+.header__social--counter span {
+  color: white;
+  font-weight: 700;
+}
+
+/** partials for all common sass */
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Regular.otf") format("opentype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Demi.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Heavy.otf") format("opentype");
+  font-weight: 1000;
+}
+
+/** scsss for component */
+.no {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.no--text {
+  margin: 0 auto;
+  margin-top: 40vh;
+  font-size: 6em;
+  font-weight: 700;
+  color: white;
+}
+
+@media screen and (min-width: 375px) {
+  .no--text {
+    font-size: 7em;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .no--text {
+    font-size: 8em;
+  }
+}
+
+/** partials for all common sass */
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Regular.otf") format("opentype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Demi.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir/avenir-next-Heavy.otf") format("opentype");
+  font-weight: 1000;
+}
+
+/** scsss for component */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4em;
+  color: black;
+  background-color: white;
+}
+
 *,
 body {
   font-family: "Avenir";

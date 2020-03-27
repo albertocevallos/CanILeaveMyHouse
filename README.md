@@ -1,6 +1,6 @@
-# Can I Leave My House [canileavemyhouse.co](http://canileavemyhouse.co)
+# Can I Leave My House ?
 
-Official website
+Official website for [canileavemyhouse.co](http://canileavemyhouse.co)
 
 ## Installation
 
