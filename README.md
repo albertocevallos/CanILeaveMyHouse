@@ -1,6 +1,6 @@
-# React Boilerplate v1
+# Can I Leave My House [canileavemyhouse.co](http://canileavemyhouse.co)
 
-My own react boilerplate. Feel free to make your own version & use it as a reference! 🎉
+Official website
 
 ## Installation
 
