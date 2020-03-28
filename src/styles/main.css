@@ -86,6 +86,10 @@
           align-items: center;
 }
 
+.header__social--button {
+  margin-left: 1em;
+}
+
 .header__social--counter {
   color: white;
   margin-left: 0.5em;
@@ -144,7 +148,7 @@
 
 .no--text {
   margin: 0 auto;
-  margin-top: 35vh;
+  margin-top: 30vh;
   font-size: 6em;
   font-weight: 700;
   color: white;
@@ -201,7 +205,8 @@
   right: 0;
   height: 4em;
   color: black;
-  background-color: white;
+  height: 8em;
+  background-color: #edf2f7;
 }
 
 *,

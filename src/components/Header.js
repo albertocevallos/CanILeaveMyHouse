@@ -1,16 +1,14 @@
 import React, { Component } from "react";
 import {
   FacebookShareButton,
-  FacebookIcon
-  // FacebookShareCount,
-  // TwitterShareButton,
-  // TwitterIcon
+  FacebookIcon,
+  TwitterShareButton,
+  TwitterIcon
 } from "react-share";
 import axios from "axios";
 
 const shareUrl = "https://canileavemyhouse.co/";
-const shareTitle = "Can I Leave My House?";
-const shareToken = "213944296522083|QNMmi-FslfUt4G5MNmKK-AMs1mI";
+const shareTitle = "COVID-19: Can I Leave My House?";
 const counterUrl =
   "https://graph.facebook.com/?id=https://canileavemyhouse.co&fields=engagement&access_token=213944296522083|123a5a55237f53d6966b6d00c69d6d92";
 
@@ -56,16 +54,14 @@ export default class Header extends Component {
               round={true}
             ></FacebookIcon>
           </FacebookShareButton>
-          <div className="header__social--counter">
-            {this.state.counter} shares
-          </div>
-          {/* <TwitterShareButton
+          <div className="header__social--counter">{this.state.counter}</div>
+          <TwitterShareButton
             url={shareUrl}
             title={shareTitle}
             className="header__social--button"
           >
             <TwitterIcon size={32} round={true} />
-          </TwitterShareButton> */}
+          </TwitterShareButton>
         </div>
       </div>
     );
