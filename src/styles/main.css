@@ -63,11 +63,8 @@
 
 /** scsss for component */
 .header {
-  color: whte;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  color: white;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,6 +72,7 @@
 }
 
 .header__social {
+  color: white;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,7 +88,7 @@
 
 .header__social--counter {
   color: white;
-  margin-left: 1em;
+  margin-left: 0.5em;
   margin-top: -2px;
 }
 
@@ -132,17 +130,21 @@
 
 /** scsss for component */
 .no {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background: black;
   height: 100vh;
   width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .no--text {
   margin: 0 auto;
-  margin-top: 40vh;
+  margin-top: 35vh;
   font-size: 6em;
   font-weight: 700;
   color: white;
